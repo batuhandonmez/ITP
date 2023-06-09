@@ -1,0 +1,132 @@
+*{
+    background-color: gray;
+    margin: 0px;
+}
+.main{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 10px ;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border: 10px solid black;
+    border-radius: 30%;
+}
+.sol{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 800px;
+
+}
+.proje{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    background-color: brown;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+
+}
+.proje>a{
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.cv{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    background-color: brown;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+.cv>a{
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.foto>img{
+    width: 600px;
+    height: 500px;
+    margin-right: 0px;
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 1500px;
+}
+.video{
+    position: absolute;
+    margin-left: 600px;
+}
+.video2{
+    width: 800px;
+    height: 500px;
+}
+.mapss{
+    width: 1400px;
+    height: 500px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 40px;
+}
+.makale{
+    width: 1400px;
+    height: 2300px;
+    background-color: whitesmoke;
+    margin-top: 400px;
+    margin-left: 40px;
+    border: 2px solid black;
+    color: black;
+    margin-bottom: 40px;
+}
+.makale>img{
+    width: 100%;
+    height: 700px;
+}
+.makale>h1{
+    background-color: whitesmoke;
+    font-size: 65px;
+    text-align: center;
+    font-style: italic;
+}
+.makale>p{
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+}
+.makale>p>strong{
+    background-color: whitesmoke;
+}
+.makale>p>a{
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: blue;
+}
